@@ -33,7 +33,7 @@ Upload the contents of this folder to the domain's web root on the current hosti
 
 Current contact details used on the website:
 
-- Email: `kanaiyafabrics2014@gmail.com`
+- Email: `info@kanaiyafabrics.in`
 - Phone: `9574892000`
 
 Before publishing, replace the placeholder opening hours and address with verified business details if they should appear publicly.
