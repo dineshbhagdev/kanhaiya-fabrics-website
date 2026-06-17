@@ -669,6 +669,7 @@ cite {
 
 .contact-card a,
 .contact-card span,
+.contact-card strong,
 .contact-card small {
   display: block;
 }
@@ -695,6 +696,12 @@ cite {
   color: var(--muted);
 }
 
+.contact-card strong {
+  margin-top: 18px;
+  color: var(--ink);
+  font-size: 0.95rem;
+}
+
 .contact-list {
   display: grid;
   gap: 14px;
@@ -709,7 +716,9 @@ cite {
 }
 
 .contact-list span,
-.contact-list a {
+.contact-list a,
+.contact-list strong,
+.contact-list address {
   display: block;
 }
 
@@ -725,6 +734,18 @@ cite {
   color: var(--maroon);
   font-weight: 700;
   overflow-wrap: anywhere;
+}
+
+.contact-list strong,
+.contact-list address {
+  margin-top: 4px;
+  color: var(--ink);
+  font-weight: 700;
+  overflow-wrap: anywhere;
+}
+
+.contact-list address {
+  font-style: normal;
 }
 
 .card-button {
